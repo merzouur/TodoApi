@@ -2159,11 +2159,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rmerzougu\\Desktop\\ETNA\\C#\\group-990793\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "C:\\Users\\rmerzougu\\Desktop\\Perso\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "C:\\Users\\rmerzougu\\Desktop\\ETNA\\C#\\group-990793\\TodoApi\\TodoApi.csproj",
+      "projectPath": "C:\\Users\\rmerzougu\\Desktop\\Perso\\TodoApi\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\rmerzougu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rmerzougu\\Desktop\\ETNA\\C#\\group-990793\\TodoApi\\obj\\",
+      "outputPath": "C:\\Users\\rmerzougu\\Desktop\\Perso\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rmerzougu\\AppData\\Roaming\\NuGet\\NuGet.Config",
