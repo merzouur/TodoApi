@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using System.Web.Cors; 
+using Microsoft.AspNetCore.Cors; 
 
 namespace TodoApi.Controllers
 {
@@ -10,8 +12,10 @@ namespace TodoApi.Controllers
     [Route("home/hello")]
     public class EtnaController : ControllerBase
     {
+        [DisableCors]
         public ActionResult<EtnaModel> Etna()
         {
+        
             EtnaModel etna = new EtnaModel { Etna = "Hello World"};
             return etna;
         }

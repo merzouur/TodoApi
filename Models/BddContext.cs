@@ -8,6 +8,12 @@ namespace TodoApi.Models
 {
     public class BddContext : DbContext
     {
+        public BddContext(DbContextOptions<BddContext> options)
+        :base(options)
+
+        {
+
+        }
         public DbSet<User> Users { get; set;}
     }
 }
